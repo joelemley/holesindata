@@ -24,9 +24,14 @@ On Windows with Visual Studio 2013, include attemptverify.cpp if you want a cons
 
 The OpenGL visualization code is controlled with the keyboard. After enough holes are found, one rectangle will show up on the screen. This will be the largest found rectangle. 
 
+
 To see more rectangles press + 
+
 To see less press -
+
 To enable an animated rotation press a
+
 To see a messagebox with volume data on the larger holes, press m
+
 
 These and other ways of using this visualization tool are located in: LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) in the file glsample.cpp
