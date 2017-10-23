@@ -11,8 +11,11 @@ Please keep in mind that this is unpolished, unrefined research code which imple
 Both the OpenGL front end and the command line interfaces are compatible with Windows with Visual Studio 2013. 
 
 To compile on linux:
+
 g++ -std=c++11 -fpermissive attemptverify.cpp hyperrectangle.cpp mcexp.cpp pointcontainer.cpp -o findholes.bin 
+
 Then use as follows:
+
  ./findholes.bin cavRigPDBMetrics.txt 100 \  3
 
 The first argument is a file name, the second is the termination condition (see paper), the third is the delimiter (cavRigPBDMetrics.txt is space delimited), and the final argument indicates your choice of expansion method (see paper for details). 
