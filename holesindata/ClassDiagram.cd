@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HyperRectangle">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAIGAAIAEAAEAAABABIBAIAAAAAAAYAEABGAAABA=</HashCode>
+      <FileName>hyperrectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MEHRExperimenter">
+    <Position X="1.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEhAAAAAQIAAAAAAAAAABAwAEAAQAAIAQBQAAAAA=</HashCode>
+      <FileName>mcexp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monteCarloRectangles">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAABAAQgAAAAAAAAAEAAAAAAAkAAAAAAAACA=</HashCode>
+      <FileName>mcexp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointContainer">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAAACAAABAAAAAAAAIAAAAEAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>pointcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
