@@ -10,6 +10,8 @@ Please keep in mind that this is unpolished, unrefined research code which imple
 
 Both the OpenGL front end and the command line interfaces are compatible with Windows with Visual Studio 2013. 
 
+The command line interface is compatible with linux and the gnu compiler set but the OpenGL front end is windows only. 
+
 To compile on linux:
 
 g++ -std=c++11 -fpermissive attemptverify.cpp hyperrectangle.cpp mcexp.cpp pointcontainer.cpp -o findholes.bin 
