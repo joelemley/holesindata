@@ -38,7 +38,7 @@ public:
 	double gety();
 	double getz();
 
-	double getSize();
+	double getSize() const;
 	int containedIn( double pt[]);
 
 	void insertBoundingPoint(double pt[]);

@@ -117,7 +117,7 @@ bool operator== (const HyperRectangle &p1, const HyperRectangle &p2){
 		return *this->points.at(2).points.begin();	
 	}
 
-	double HyperRectangle::getSize(){
+	double HyperRectangle::getSize() const {
 		double end=*(--points.at(0).points.end());
 		double size=end - *points.at(0).points.begin();
 		for(int i=1;i<D;i++){
