@@ -1,3 +1,6 @@
+Update: Pavel Komarov has kindly ported this to python and you can find his implementation here: https://github.com/pavelkomarov/big-holes-in-big-data
+
+ 
 # holesindata
 
 This is the github repository for the code associated with the paper Big Holes in Big Data: A Monte Carlo Algorithm for Detecting Large Hyper-rectangles in High Dimensional Data.
